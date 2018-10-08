@@ -1,0 +1,15 @@
+{
+  "name": "AJT_api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/fabiopengue/AJT_api.git",
+  "author": "Fabio <fabio.pengue@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon --exec babel-node -- src/index.js"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  }
+}
